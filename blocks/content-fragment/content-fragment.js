@@ -152,6 +152,7 @@ export default async function decorate(block) {
                     </span>
                   </a>
                 </p>
+                ${cfReq?.termsConditions?.description?.plaintext ? `<div data-aue-prop="termsConditions" data-aue-label="Terms and Conditions" data-aue-type="richtext" class='cfterms'><p>${cfReq.termsConditions.description.plaintext}</p></div>` : ''}
             </div>
             <div class='banner-logo'>
             </div>

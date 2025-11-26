@@ -82,6 +82,20 @@
   margin: 0;
 }
 
+.content-fragment-wrapper .content-fragment .banner-content .banner-detail .cfterms {
+  margin: 20px 0 0 0;
+  font-size: 12px;
+  line-height: 18px;
+  width: 60%;
+  color: rgba(255, 255, 255, 0.7);
+  font-style: italic;
+}
+
+/* ensure richtext container doesn't add extra spacing when wrapping <p> */
+.content-fragment-wrapper .content-fragment .banner-content .banner-detail .cfterms p {
+  margin: 0;
+}
+
 .content-fragment-wrapper .content-fragment .banner-content .banner-detail a {
   display: inline-block;
   padding: 0;
@@ -269,6 +283,16 @@
   /* text-align: left; */
 }
 
+.content-fragment-wrapper .content-fragment .banner-content.image-left .banner-detail .cfterms,
+.content-fragment-wrapper .content-fragment .banner-content.image-right .banner-detail .cfterms,
+.content-fragment-wrapper .content-fragment .banner-content.image-top .banner-detail .cfterms,
+.content-fragment-wrapper .content-fragment .banner-content.image-bottom .banner-detail .cfterms {
+  color: #666;
+  width: 100%;
+  font-size: 11px;
+  line-height: 16px;
+}
+
 .content-fragment-wrapper .content-fragment .banner-content.image-left .banner-detail a,
 .content-fragment-wrapper .content-fragment .banner-content.image-right .banner-detail a,
 .content-fragment-wrapper .content-fragment .banner-content.image-top .banner-detail a,
@@ -325,6 +349,9 @@
   .content-fragment-container .content-fragment-wrapper .content-fragment .banner-content .banner-detail .cfdescription {
     width: 90%;
   }
+  .content-fragment-container .content-fragment-wrapper .content-fragment .banner-content .banner-detail .cfterms {
+    width: 90%;
+  }
 }
 
 
@@ -376,6 +403,13 @@
   .content-fragment-wrapper .content-fragment .banner-content.image-right .banner-detail .cfdescription,
   .content-fragment-wrapper .content-fragment .banner-content.image-top .banner-detail .cfdescription,
   .content-fragment-wrapper .content-fragment .banner-content.image-bottom .banner-detail .cfdescription {
+    text-align: center;
+  }
+  
+  .content-fragment-wrapper .content-fragment .banner-content.image-left .banner-detail .cfterms,
+  .content-fragment-wrapper .content-fragment .banner-content.image-right .banner-detail .cfterms,
+  .content-fragment-wrapper .content-fragment .banner-content.image-top .banner-detail .cfterms,
+  .content-fragment-wrapper .content-fragment .banner-content.image-bottom .banner-detail .cfterms {
     text-align: center;
   }
   
@@ -448,6 +482,11 @@
   text-align: left;
 }
 
+.content-fragment-wrapper .content-fragment .banner-content.image-top .banner-detail.text-left .cfterms,
+.content-fragment-wrapper .content-fragment .banner-content.image-bottom .banner-detail.text-left .cfterms {
+  text-align: left;
+}
+
 .content-fragment-wrapper .content-fragment .banner-content.image-top .banner-detail.text-left a,
 .content-fragment-wrapper .content-fragment .banner-content.image-bottom .banner-detail.text-left a {
   text-align: left;
@@ -455,6 +494,11 @@
 }
 .content-fragment-wrapper .content-fragment .banner-content.image-top .banner-detail.text-right .cfdescription,
 .content-fragment-wrapper .content-fragment .banner-content.image-bottom .banner-detail.text-right .cfdescription {
+  text-align: right;
+}
+
+.content-fragment-wrapper .content-fragment .banner-content.image-top .banner-detail.text-right .cfterms,
+.content-fragment-wrapper .content-fragment .banner-content.image-bottom .banner-detail.text-right .cfterms {
   text-align: right;
 }
 
