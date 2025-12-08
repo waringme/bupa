@@ -4,7 +4,7 @@ import { isAuthorEnvironment } from '../../scripts/scripts.js';
 import { getHostname } from '../../scripts/utils.js';
 
 // Sample doctor data - in production, this would come from your data source
-const GRAPHQL_DOCTORS_BY_FOLDER_QUERY = '/graphql/execute.json/ref-demo-eds/GetDoctorsFromFolder';
+const GRAPHQL_DOCTORS_BY_FOLDER_QUERY = '/graphql/execute.json/bupa/GetDoctorsFromFolder';
 
  const CONFIG = {
     WRAPPER_SERVICE_URL: 'https://3635370-refdemoapigateway-stage.adobeioruntime.net/api/v1/web/ref-demo-api-gateway/fetch-cf'
