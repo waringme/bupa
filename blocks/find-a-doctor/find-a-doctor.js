@@ -465,7 +465,7 @@ async function fetchFromContentFragmentFolder(folderPath) {
       throw parseError;
     }
 
-    const items = payload?.data?.doctorProfile_healthcare_List?.items || [];
+    const items = payload?.data?.doctorProfile_bupa_List?.items || [];
     console.log('GraphQL items received:', items?.length || 0);
 
     const doctors = items.map((item) => transformGraphQLDoctorItem(item, isAuthor));
