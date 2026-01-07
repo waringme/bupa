@@ -471,6 +471,10 @@ pre {
   white-space: pre;
 }
 
+main {
+  padding-top: 45px;
+}
+
 main > div {
   margin: 40px 16px;
 }
@@ -657,9 +661,21 @@ main > .section:first-of-type {
   margin-top: 0;
 }
 
+@media (width >= 768px) {
+  main {
+    padding-top: 17px;
+  }
+}
+
 @media (width >= 900px) {
   main > .section > div {
     padding: 0 32px;
+  }
+}
+
+@media (width >= 1024px) {
+  main {
+    padding-top: 22px;
   }
 }
 
