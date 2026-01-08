@@ -932,7 +932,7 @@ table {
   margin: 10px 5px;
   background-color: var(--main-accent-color) !important;
   /*color: var(--text-light) !important; */
-  colour: black
+  colour: rgb(255, 255, 255)
   text-decoration: none;
   border: 2px solid rgb(255, 255, 255) !important;
   border-image: none;
