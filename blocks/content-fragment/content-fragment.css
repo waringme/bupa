@@ -50,6 +50,7 @@
   padding: 0;
   margin: 0;
   font-family: var(--heading-font-family);
+  color: #000;
 }
 
 .content-fragment-wrapper .content-fragment .banner-content .banner-detail .cftitle {
@@ -57,6 +58,7 @@
   font-size: 30px;
   line-height: 50px;
   font-family: var(--black-font-family);
+  color: #000;
 }
 .content-fragment-wrapper .content-fragment .banner-content .banner-detail .cftitle::after {
   background-color: var(--main-accent-color);
@@ -100,7 +102,7 @@
   display: inline-block;
   padding: 0;
   background-color: transparent;
-  color: var(--text-light);
+  color: #000;
   text-decoration: none;
   outline: none;
   border: none;
@@ -115,7 +117,7 @@
 .content-fragment-wrapper .content-fragment .banner-content .banner-detail a::after {
   font-family: 'Font Awesome 5 Solid';
   content: "\f105";
-  color: var(--text-light);
+  color: #000;
   font-size: 16px;
   font-weight: 100;
   width: 15px;
@@ -264,14 +266,14 @@
 .content-fragment-wrapper .content-fragment .banner-content.image-right .banner-detail .cftitle,
 .content-fragment-wrapper .content-fragment .banner-content.image-top .banner-detail .cftitle,
 .content-fragment-wrapper .content-fragment .banner-content.image-bottom .banner-detail .cftitle {
-  color: var(--text-color);
+  color: #000;
 }
 
 .content-fragment-wrapper .content-fragment .banner-content.image-left .banner-detail .cfsubtitle,
 .content-fragment-wrapper .content-fragment .banner-content.image-right .banner-detail .cfsubtitle,
 .content-fragment-wrapper .content-fragment .banner-content.image-top .banner-detail .cfsubtitle,
 .content-fragment-wrapper .content-fragment .banner-content.image-bottom .banner-detail .cfsubtitle {
-  color: #666;
+  color: #000;
 }
 
 .content-fragment-wrapper .content-fragment .banner-content.image-left .banner-detail .cfdescription,
@@ -299,14 +301,14 @@
 .content-fragment-wrapper .content-fragment .banner-content.image-bottom .banner-detail a {
   /* text-align: left; */ 
   /* align-self: flex-start; */
-  color: var(--text-color);
+  color: #000;
 }
 
 .content-fragment-wrapper .content-fragment .banner-content.image-left .banner-detail a::after,
 .content-fragment-wrapper .content-fragment .banner-content.image-right .banner-detail a::after,
 .content-fragment-wrapper .content-fragment .banner-content.image-top .banner-detail a::after,
 .content-fragment-wrapper .content-fragment .banner-content.image-bottom .banner-detail a::after {
-  color: var(--text-color);
+  color: #000;
 }
 
 /* Override text alignment for top/bottom layouts */
